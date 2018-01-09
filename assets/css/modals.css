@@ -1,0 +1,152 @@
+/* --- General Modal window detail --- */
+.pop, .pop-2, .pop-3, .pop-4, .pop-5, .pop-6, .pop-7, .pop-8, .pop-9, .pop-10,
+.pop-11, .pop-12, .pop-13, .pop-14 {
+  display: none;
+  position: fixed;
+  top: 10.3%;
+  left: 13.5%;
+  width: 80%;
+  height: 80%;
+  background-color: #5A5A5A;
+}
+
+.X {
+  max-width: 60px;
+  float: right;
+  margin: 15px;
+  cursor: pointer;
+}
+
+#info-picture {
+  float: left;
+  margin-left: 100px;
+  color:#95989A;
+}
+
+#info-picture h2 {
+  font-size: 45px;
+}
+
+#info-picture p{
+  font-size: 20px;
+}
+
+#info-picture p#comments {
+  color: #fff;
+  font-size: 16px;
+}
+
+#detail-picture img {
+  padding: 10px;
+  margin: 18px 40px 0px 0px;
+  float: right;
+  background: url('../img/background/bottom-right.svg') bottom right no-repeat,
+  url('../img/background/bottom-left.svg') bottom left no-repeat,
+  url('../img/background/top-left.svg') top left no-repeat,
+  url('../img/background/top-right.svg') top right no-repeat;
+  background-size: 8%;
+}
+
+/* --- Squeare Image --- */
+.pop #detail-picture > #info-picture,
+.pop-3 #detail-picture > #info-picture,
+.pop-7 > #detail-picture > #info-picture,
+.pop-10 > #detail-picture > #info-picture,
+.pop-11 > #detail-picture > #info-picture,
+.pop-13 > #detail-picture > #info-picture {
+  max-width: 200px;
+}
+
+.pop #detail-picture img,
+.pop-3 #detail-picture img,
+.pop-7 > #detail-picture img,
+.pop-10 > #detail-picture img,
+.pop-11 > #detail-picture img,
+.pop-13 > #detail-picture img {
+  width: 54%;
+}
+
+/* --- Small Rectangle Image --- */
+.pop-8 #detail-picture > #info-picture,
+.pop-9 #detail-picture > #info-picture,
+.pop-12 #detail-picture > #info-picture,
+.pop-4 > #detail-picture > #info-picture {
+  max-width: 300px;
+}
+
+.pop-8 #detail-picture img,
+.pop-9 #detail-picture img,
+.pop-12 #detail-picture img {
+  width: 46%;
+}
+
+/* --- Rectangle Image --- */
+.pop-6 #detail-picture > #info-picture,
+.pop-2 #detail-picture > #info-picture {
+  max-width: 350px;
+}
+
+.pop-6 #detail-picture img,
+.pop-2 #detail-picture img {
+  width: 37%;
+  padding: 8px;
+  background-size: 10%;
+}
+
+/* --- picture info-4 --- */
+.pop-4 > #detail-picture img {
+  width: 44%;
+}
+
+/* --- picture info-5 --- */
+.pop-5 > #detail-picture img {
+  width: 25%;
+  padding: 5px !important;
+  background-size: 12% !important;
+}
+.pop-5 #detail-picture > #info-picture {
+  max-width: 450px;
+}
+
+/* --- picture info-14 --- */
+.pop-14 #detail-picture > #info-picture {
+  max-width: 330px;
+}
+
+.pop-14 #detail-picture img {
+  width: 34%;
+  padding: 8px;
+  background-size: 10%
+}
+
+
+/* --- Web diplay width 1024 --- */
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  /* --- General Modal window detail --- */
+  .pop, .pop-2, .pop-3, .pop-4, .pop-5, .pop-6, .pop-7, .pop-8, .pop-9, .pop-10,
+  .pop-11, .pop-12, .pop-13, .pop-14 {
+    left: 9.5%;
+    width: 86%;
+  }
+
+  .X {
+    max-width: 45px; /**/
+  }
+
+  #info-picture {
+    margin-left: 10px; /**/
+  }
+
+  #info-picture h2 {
+  font-size: 40px; /**/
+}
+
+  #info-picture p{
+    font-size: 18px; /**/
+  }
+
+  #info-picture p#comments {
+    font-size: 14px; /**/
+  }
+
+}
